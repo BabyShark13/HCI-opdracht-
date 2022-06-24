@@ -9,14 +9,54 @@
   </head>
   <body>
     <a-scene background="color: #a733bb">
-      <a-box id="myBox"
-        width="5"
-        height="2"
+      <!-- <a-box id="myBox"
+        width="3"
+        height="3"
         depth="3"
         color="#33bbb9" 
-        position="0 3 -10"
+        position="0 2 -10"
+        rotation="20 30 0"
+        scale="1"
         shadow>
       </a-box>
+
+      <a-ring 
+      color="teal" 
+      radius-inner="1" 
+      radius-outer="2"
+      color="#9433bb" 
+      position="0 7 -10"
+      rotation="20 30 20"
+      ></a-ring>
+
+      <a-cylinder 
+      color="yellow" 
+      theta-start="50" 
+      theta-length="280" 
+      side="double"
+      position="0 7 -10"
+      rotation="0 20 -20"
+      ></a-cylinder> -->`
+
+      <a-text value="Hondenbot"></a-text>
+
+      <!-- de balle -->
+        <!-- <a-circle color="black" radius="1" position="0 4 -10"></a-circle> -->
+      <a-circle color="black" radius="1" position="-1 5.2 -10"></a-circle>
+<a-circle color="black" radius="1" position="1 5.2 -10"></a-circle>
+
+      <!-- la paal  -->
+      <a-cylinder color="black" segments-radial="6" position="0 2.5 -10" height="5"></a-cylinder>
+<!-- de balle -->
+<a-circle color="black" radius="1" position="-1 0 -10"></a-circle>
+<a-circle color="black" radius="1" position="1 0 -10"></a-circle> 
+
+
     </a-scene>
+    
+
+
+
+    
   </body>
 </html>
